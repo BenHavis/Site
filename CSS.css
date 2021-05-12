@@ -1,0 +1,184 @@
+body {
+    background-color: #F3E7E4;
+}
+
+#logo {
+    height: auto;
+    width: auto;
+    max-width: 140px;
+    max-height: 140px;
+    position: absolute;
+    top: 0px;
+    right: 45%;
+    padding: 8px;
+    margin: 5px;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: lightgray;
+    overflow: hidden;
+    height: 100px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    background-color: #4CAF50;
+    color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+#aboutsection {
+    height: 400px;
+    width: 800px;
+    align: left;
+    margin-left: 25px;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: white;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style inputs */
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+/* Create two columns that float next to eachother */
+
+.column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+
+/* Media Queries: Tablet Landscape */
+
+@media screen and (max-width: 1060px) {
+    #primary {
+        width: 67%;
+    }
+    #secondary {
+        width: 30%;
+        margin-left: 3%;
+    }
+}
+
+
+/* Media Queries: Tabled Portrait */
+
+@media screen and (max-width: 768px) {
+    #primary {
+        width: 100%;
+    }
+    #secondary {
+        width: 100%;
+        margin: 0;
+        border: none;
+    }
+}
+
+#about {
+    text-align: center;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-image: url("backgroundpic.jpg");
+    background-repeat: no-repeat;
+}
+
+img {
+    height: 200px;
+    margin: 20px;
+}
+
+#aboutheader {
+    text-align: center;
+}
+
+#homepic {
+    height: 360px;
+    margin-right: 10px;
+}
+
+#navpics {
+    display: inline-block;
+    text-align: center;
+}
+
+#aboutsection {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F3E7E4;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@viewport {
+    width: device-width;
+    zoom: 1.0;
+}
+
+li {
+    padding-bottom: 2em;
+}
